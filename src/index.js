@@ -1,7 +1,7 @@
 const $ = require('jquery');
 
-const sayHello = () => {console.log('hello')};
+const hello = require('./say-hello.js');
 
-sayHello();
+hello();
 
-$('body').html('Test Text For Testing Text Tests');
+$('body').html('Test Text For Testing');

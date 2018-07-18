@@ -1,0 +1,1 @@
+module.exports = () => console.log('This is the "Nice" message I\'m exporting');
